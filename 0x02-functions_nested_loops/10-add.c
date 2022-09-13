@@ -2,12 +2,17 @@ include "main.h"
 
 /**
  * add - adds two integers
- * @num1: first number to add
- * @num2: second number to add
- * Description: finds the sum of two numbers
- * Return: an integer(the sum of num1 and num2)
+ * @n1: integer 1
+ * @@n2: integer 2
+ * Description: give two integers, returns sum
+ * Return: sum
  */
-int add(int num1, int num2)
+
+int add(int n1, int n2)
 {
-	return (num1 + num2);
+	int sum;
+
+	sum = n1 + n2;
+
+	return (sum);
 }
