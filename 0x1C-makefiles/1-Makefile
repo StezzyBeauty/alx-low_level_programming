@@ -2,8 +2,7 @@
 
 # Setting variables
 CC = gcc
-SRC = main.c holberton.c
+SRC = main.c school.c
 
-# Rule all: uses variables to build the holberton executable file
-all:
-	$(CC) $(SRC) -o holberton
+all: $(SRC)
+	$(CC) $(SRC) -o school
