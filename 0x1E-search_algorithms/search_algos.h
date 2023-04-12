@@ -68,3 +68,4 @@ listint_t *create_list(int *array, size_t size);
 /* free_list - Deallocates a singly linked list */
 void free_list(listint_t *list);
 
+#endif /* SEARCH_H */
