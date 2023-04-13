@@ -74,4 +74,7 @@ listint_t *create_list(int *array, size_t size);
 /* free_list - Deallocates a singly linked list */
 void free_list(listint_t *list);
 
+/* linear_skip - searches for a value conatined in a skip list */
+skiplist_t *linear_skip(skiplist_t *list, int value);
+
 #endif /* SEARCH_H */
