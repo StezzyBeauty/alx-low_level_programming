@@ -23,7 +23,7 @@ typedef struct listint_s
 } listint_t;
 
 
-/*
+/**
  * struct skiplist_s - Singly linked list with an express lane
  *
  * @n: Integer
@@ -73,7 +73,7 @@ int interpolation_search(int *array, size_t size, int value);
 int exponential_search(int *array, size_t size, int value);
 
 /*
- * Function that helps an `advanced_binary`, to 
+ * Function that helps an `advanced_binary`, to
  * recursively search for a value in an integer array
  */
 int advanced_binary(int *array, size_t size, int value);
